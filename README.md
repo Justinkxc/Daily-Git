@@ -40,25 +40,5 @@ I will be showing you how to set this up using task sceduler on windows.
 - If for some reason, the directory changed/`run.bat` got renamed or deleted/or you deleted the project and re-downloaded. REPEAT step 8.
 - If there are errors that occur, open up an issue and I will get it fixed ASAP.
 
-### Linux
-
-I will be using `crontab`.
-
-1.  Open crontab with: `sudo crontab -e`
-2.  Add the following line: `59 23 * * * cd /path/to/script/folder/ ; /usr/bin/env /usr/local/bin/python3.8 /path/to/script/main.py`
-3.  Thats it! Make sure you save and exit.
-
-Note. There may be git config issues, I solved them by generating a GitHub token in the developer settings. Using the github token as a login for git, make sure git is logged in your system.
-
-Additional information about [crontab](https://crontab.guru)
-## WHY?!
-
-Only because I wanted to. I hate to see my git commit stats have gaps, and so I made this SUPER simple script to create a commit to this repository to bring up my commit streak :P, and to fill in the gaps where I don't commit on one day. Again this is just a silly project and has no purpose besides to 'cure my ocd' for a perfect commit streak :D. I hope if you have the same issue this script will help.
-
-## BAN!?
-
-Short answer: NO!
-
-Detailed answer:
-I asked this question on [stackoverflow](https://stackoverflow.com/questions/66496319/is-it-against-github-tos-to-make-commits-daily-with-gitpython), and any other question you have is answered there!
+From JareBear12418 
 
